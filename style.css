@@ -97,9 +97,9 @@ h1 {
 
 p {
     margin: 12px 0;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 2;
-    color: #718096;
+    color: #7c8ba1;
 }
 
 h2 {
@@ -462,7 +462,7 @@ button:hover {
 
 .values__list-para {
     color: #243e63;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.625;
     margin-top: 16px;
     max-width: 265px;
@@ -471,4 +471,149 @@ button:hover {
 .values__img {
     width: 100%;
     max-width: 640px;
+}
+
+/* Pricing */
+
+#pricing { 
+    padding: 96px 0 8px 0;
+    margin: 0 87px;
+    display: flex;
+    align-items: center;
+
+}
+
+.pricing__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 70px 0;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing__label {
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.pricing__header {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+}
+
+.pricing__para {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 2;
+    color: #718096;
+    width: 100%;
+    max-width: 576px;
+}
+
+.plans {
+    border: 1px solid #0000003a;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    width: 100%;
+    max-width: 384px;
+    margin-top: 24px;
+}
+
+.plans__container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.plan__top {
+    position: relative;
+    border-bottom: 2px solid #0000003a;
+}
+
+.plan__stripe {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.plan__label {
+    padding-top: 24px;
+}
+
+.plan__price {
+    padding: 8px 100px;
+    font-weight: 400;
+}
+
+.plan__duration {
+    padding-bottom: 24px;
+    color: #718096;
+}
+ 
+.plan__middle {
+    border-bottom: 2px solid #0000003a;
+    padding: 32px;
+}
+
+.plan__middle--label {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.plan__middle--para {
+    font-size: 16px;
+    color: #718096;
+    margin-top: 20px;
+}
+
+.plan__bottom {
+    padding: 32px 64px;
+}
+
+.plan__button {
+    padding: 16px 64px;
+    transition: all 300ms ease;
+}
+
+.plan__button--2 {
+    padding: 16px 64px;
+    color: #6415ff;
+    background-color: white;
+    transition: all 300ms ease;
+}
+
+.plan__button:hover, .plan__button--2:hover {
+    transform: translate(1px, -1px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5p;
+    color: white;
+}
+
+.plans:nth-child(1) .plan__stripe, .plans:nth-child(1) .plan__button {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%)
+}
+
+.plans:nth-child(3) .plan__stripe, .plans:nth-child(3) .plan__button {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plans:nth-child(2) {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plans:nth-child(2) .plan__label, .plans:nth-child(2) .plan__price, .plans:nth-child(2) .plan__middle--label, .plans:nth-child(2) .plan__duration, .plans:nth-child(2) .plan__para {
+    color: #f7fafc;
 }
