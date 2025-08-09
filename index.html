@@ -15,7 +15,7 @@
       <section id="header">
         <nav>
           <div class="container">
-            <div>
+            <div class="nav__row">
               <figure class="header__logo">
                 <img
                   src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
@@ -29,21 +29,24 @@
               <ul class="header__links--first">
                 <a href="">About</a>
                 <a href="">Blog</a>
-                <a href="">Pricing</a>
-                <a href="">Contact Us</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact Us</a>
               </ul>
               <ul class="header__links--last">
                 <a href="">Login</a>
                 <a href="" class="header__links--sign-up">Sign Up</a>
               </ul>
             </div>
+            <button class="btn__menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
           </div>
         </nav>
       </section>
       <main>
         <section id="home">
-          <div class="container">
-            <div class="row">
+          <div class="container home__container">
+            <div class="row  home__row">
               <h1 class="home__heading">
                 Beautiful React Templates <span class="purple">for you.</span>
               </h1>
@@ -217,7 +220,7 @@
               <ul class="steps__lists">
                 <li class="steps__list">
                   <div class="steps__list--numbers">
-                    <h1>01</h1>
+                    <h1 class="steps__list--numbers">01</h1>
                   </div>
                   <div class="steps__list--text">
                     <h2 class="steps__text-label">Register</h2>
@@ -228,7 +231,7 @@
                 </li>
                 <li class="steps__list">
                   <div class="steps__list--numbers">
-                    <h1>02</h1>
+                    <h1 class="steps__list--numbers">02</h1>
                   </div>
                   <div class="steps__list--text">
                     <h2 class="steps__text-label">Download</h2>
@@ -240,7 +243,7 @@
                 </li>
                 <li class="steps__list">
                   <div class="steps__list--numbers">
-                    <h1>03</h1>
+                    <h1 class="steps__list--numbers">03</h1>
                   </div>
                   <div class="steps__list--text">
                     <h2 class="steps__text-label">Run</h2>
@@ -447,15 +450,79 @@
           </div>
         </section>
         <section id="contact">
-          <div class="contact__row">
-            <h2 class="contact__header">Developers all over the world are happily using Tract.</h2>
-            <div class="contact__buttons">
-              <button class="contact__start">Get Started</button>
-              <button class="contact-us">Contact Us</button>
+          <div class="contact__container">
+            <div class="contact__row">
+              <h2 class="contact__header">
+                Developers all over the world are happily using Tract.
+              </h2>
+              <div class="contact__buttons">
+                <button class="contact__start">Get Started</button>
+                <button class="contact-us">Contact Us</button>
+              </div>
             </div>
           </div>
         </section>
       </main>
+      <footer>
+        <section id="footer">
+          <div class="footer__row">
+            <div class="footer__columns">
+              <div class="footer__column">
+                <h2 class="main">MAIN</h2>
+                <a href="" class="footer__link">Blog</a>
+                <a href="" class="footer__link">FAQs</a>
+                <a href="" class="footer__link">Support</a>
+                <a href="" class="footer__link">About Us</a>
+              </div>
+              <div class="footer__column">
+                <h2 class="main">PRODUCT</h2>
+                <a href="" class="footer__link">Log In</a>
+                <a href="" class="footer__link">Personal</a>
+                <a href="" class="footer__link">Buisness</a>
+                <a href="" class="footer__link">Team</a>
+              </div>
+              <div class="footer__column">
+                <h2 class="main">PRESS</h2>
+                <a href="" class="footer__link">Logos</a>
+                <a href="" class="footer__link">Events</a>
+                <a href="" class="footer__link">Stories</a>
+                <a href="" class="footer__link">Office</a>
+              </div>
+              <div class="footer__column">
+                <h2 class="main">TEAM</h2>
+                <a href="" class="footer__link">Career</a>
+                <a href="" class="footer__link">Founders</a>
+                <a href="" class="footer__link">Culture</a>
+                <a href="" class="footer__link">Onboarding</a>
+              </div>
+              <div class="footer__column">
+                <h2 class="main">LEGAL</h2>
+                <a href="" class="footer__link">GDPR</a>
+                <a href="" class="footer__link">Privacy Policy</a>
+                <a href="" class="footer__link">Terms of Service</a>
+                <a href="" class="footer__link">Disclaimer</a>
+              </div>
+            </div>
+            <hr>
+            <div class="footer__bottom">
+              <div class="footer__logo">
+                <img
+                  src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg"
+                  alt=""
+                  class="footer__logo--img"
+                />
+                Treact Inc.
+              </div>
+                <p class="copyright">© 2018 Treact Inc. All Rights Reserved.</p>
+                <div class="social__links">
+                  <a href="" class="social__link"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="" class="social__link"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="" class="social__link"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
     </Container>
   </body>
 </html>
