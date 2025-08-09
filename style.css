@@ -617,3 +617,141 @@ button:hover {
 .plans:nth-child(2) .plan__label, .plans:nth-child(2) .plan__price, .plans:nth-child(2) .plan__middle--label, .plans:nth-child(2) .plan__duration, .plans:nth-child(2) .plan__para {
     color: #f7fafc;
 }
+
+/* Testimonials */
+
+#testimonials {
+    padding: 96px 0;
+    margin: 0 87px;
+    animation: slide-in-right 0.7s ease-out backwards;
+    animation-timeline: view();
+    opacity: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+
+.testimonials__img {
+    max-width: 627px;
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
+.testimonials__header {
+    margin: 16px 0;
+}
+
+.testimonials__label {
+    padding: 0 0;
+}
+
+.review {
+    margin-top: 40px;
+}
+
+.review__subject {
+    padding: 0;
+}
+
+.review__para {
+    font-size: 16px;
+    color: black;
+
+}
+
+.stars {
+    display: flex;
+}
+
+.fa-solid.fa-star {
+    width: 32px;
+    height: 32px;
+    color: gold;
+    font-weight: 900;
+}
+
+.testimonial__bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reviewer {
+    display: flex;
+}
+
+.review__details {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.review__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.review__name {
+    padding: 0;
+}
+
+.review__role {
+    margin: 0;
+}
+
+
+.button__left, .button__right {
+    border: 1px solid #edf2f7;
+    background-color: #edf2f7;
+    border-radius: 50%;
+    color: #6415ff;
+    padding: 16px 16px;
+    margin: 0 12px;
+
+}
+
+/* Contact */
+
+#contact {
+    background-color: #6415ff;
+    width: 100%;
+    padding: 96px 0;
+    margin: 0 87px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.contact__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.contact__header {
+    font-size: 30px;
+    color: white;
+    max-width: 480px;
+}
+
+.contact__start {
+    border: 1px solid #f56565;
+    background-color: #f56565;
+}
+
+.contact__start:hover {
+    background-color: #fd5656;
+}
+
+.contact-us {
+    border: 1px solid #fa3131;
+}
+
+.contact-us:hover {
+    color: #6415ff;
+    background-color: white;
+}
