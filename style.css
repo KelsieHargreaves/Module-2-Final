@@ -1147,6 +1147,10 @@ button:hover {
         padding: 0;
     }
 
+    .container, .home__container {
+        padding-top: 16px;
+    }
+
     .home__input {
         display: flex;
         flex-direction: column;
