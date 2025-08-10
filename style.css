@@ -949,6 +949,10 @@ button:hover {
         font-size: 14px;
     }
 
+    .header__container {
+        padding: 0;
+    }
+
     .home__input {
         display: flex;
         flex-direction: column;
@@ -1137,6 +1141,10 @@ button:hover {
 
     .home__para, .features__para, .quality-work__para, .pricing__para, .testimonials__para {
         font-size: 16px;
+    }
+
+     .header__container {
+        padding: 0;
     }
 
     .home__input {
